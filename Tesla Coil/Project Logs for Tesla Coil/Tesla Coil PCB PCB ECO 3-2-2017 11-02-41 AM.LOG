@@ -1,0 +1,19 @@
+Change Component Comment : Designator=C1 Old Comment=Cap 2-5x11 New Comment=
+Change Component Comment : Designator=R1 Old Comment=R Thru Hole New Comment=
+Change Component Comment : Designator=R2 Old Comment=R Thru Hole New Comment=
+Change Component Comment : Designator=R3 Old Comment=R Thru Hole New Comment=
+Change Component Comment : Designator=R4 Old Comment=R Thru Hole New Comment=
+Change component parameters: Designator = "R2"; Footprint = "RES10.55-7X2.8"; UniqueID = "\ANVBTGLP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3"; Footprint = "RES10.55-7X2.8"; UniqueID = "\MJGLLUGW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"

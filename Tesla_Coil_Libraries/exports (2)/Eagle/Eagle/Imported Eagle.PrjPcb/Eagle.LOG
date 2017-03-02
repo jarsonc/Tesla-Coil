@@ -1,0 +1,18 @@
+Importer Log Report
+Project : Eagle.PrjPcb
+
+Section : Analyze Document - \\my.files.iastate.edu\Users\jscheng\Documents\Tesla-Coil\Tesla_Coil_Libraries\exports (2)\Eagle\Eagle\Eagle.sch
+    Analyzing data of \\my.files.iastate.edu\Users\jscheng\Documents\Tesla-Coil\Tesla_Coil_Libraries\exports (2)\Eagle\Eagle\Eagle.sch
+    Load settings
+    Load layers 8
+    Load schematic
+    Load Libraries 1
+    Load Library "AcceleratedDesigns_Lib"
+    Load Packages 3
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 1
+    Load Parts 0
+    Load Sheets 0
+EndSection
