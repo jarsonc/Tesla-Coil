@@ -1,0 +1,3 @@
+Change component parameters: Designator = "TP2"; Footprint = "Test Point"; UniqueID = "\PXEIFODK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Label"; Value = "12V In"; VariantName = "[No Variations]"

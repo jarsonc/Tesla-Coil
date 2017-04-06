@@ -1,0 +1,17 @@
+Change component parameters: Designator = "Q1"; Footprint = "SCT2450KEC"; UniqueID = "\BHQLPDJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "URL"; Value = "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/sic/mosfet/sct2450ke-e.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES10.55-7X2.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=R8-2
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetJ4_2 Pin=R8-1
+Added Net: Name=NetJ4_2
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component R8 R Thru Hole
+Added Room: Name=Tesla Coil Schematic
