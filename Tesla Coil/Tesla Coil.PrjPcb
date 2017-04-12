@@ -10,7 +10,7 @@ ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
-SeparateFolders=0
+SeparateFolders=1
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
@@ -39,6 +39,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=3.5mm HPJ PCB foot.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LFJVJJHK
+
+[Document2]
 DocumentPath=Tesla_Coil_Parts2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LBNLTLJS
 
-[Document2]
+[Document3]
 DocumentPath=Tesla Coil Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FEKGIJNA
 
-[Document3]
+[Document4]
 DocumentPath=..\Tesla_Coil_Libraries\Tesla_Coil_Libraries.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,23 +105,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document4]
-DocumentPath=3.5mm HPJ PCB foot.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LFJVJJHK
 
 [Document5]
 DocumentPath=Common.PcbLib
@@ -276,6 +276,86 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Tesla Coil\Design Rule Check - Tesla Coil PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -288,7 +368,7 @@ OutputJobsCount=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -400,22 +480,12 @@ OutputName22=VHDL File
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -536,11 +606,17 @@ OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType20=Logic Analyser Print
+OutputName20=Logic Analyser Prints
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -562,79 +638,83 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=ODB
+OutputName1=ODB++ Files
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=True|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=Mask
+OutputName3=Solder/Paste Mask Prints
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=IPC2581
+OutputName4=IPC-2581 Files
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Test Points
+OutputName5=Test Point Report
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+OutputType6=Plane
+OutputName6=Power-Plane Prints
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=ODB
-OutputName9=ODB++ Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
-OutputVariantName9=[No Variations]
+OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
-OutputType12=IPC2581
-OutputName12=IPC-2581 Files
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16908289~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -671,7 +751,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -851,7 +931,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -890,7 +970,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP ENVY 4520 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1264,15 +1344,15 @@ ComponentSymbolReference9=Inductor Adj
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Tesla_Coil_Parts.SchLib
-ComponentDesignItemID10=MCP6562-E/SN
-ComponentSymbolReference10=MCP6562-E/SN
+ComponentLibraryIdentifier10=Miscellaneous Devices.IntLib
+ComponentDesignItemID10=LED1
+ComponentSymbolReference10=LED1
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Tesla_Coil_Parts.SchLib
-ComponentDesignItemID11=MOSFET Driver
-ComponentSymbolReference11=MOSFET Driver
+ComponentDesignItemID11=MCP6562-E/SN
+ComponentSymbolReference11=MCP6562-E/SN
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
@@ -1295,16 +1375,22 @@ ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Tesla_Coil_Parts2.SchLib
-ComponentDesignItemID15=REG
-ComponentSymbolReference15=REG
+ComponentDesignItemID15=MOSFET Driver
+ComponentSymbolReference15=MOSFET Driver
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Tesla_Coil_Parts2.SchLib
-ComponentDesignItemID16=SCT2450KEC
-ComponentSymbolReference16=SCT2450KEC
+ComponentDesignItemID16=REG
+ComponentSymbolReference16=REG
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Tesla_Coil_Parts2.SchLib
+ComponentDesignItemID17=SCT2450KEC
+ComponentSymbolReference17=SCT2450KEC
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1344,146 +1430,149 @@ ParameterName11=Datasheet
 ParameterUpdate11=1
 ParameterName12=Description
 ParameterUpdate12=1
-ParameterName13=Digikey #
+ParameterName13=Fastening Type
 ParameterUpdate13=1
-ParameterName14=Fastening Type
+ParameterName14=Features
 ParameterUpdate14=1
-ParameterName15=Features
+ParameterName15=Label
 ParameterUpdate15=1
-ParameterName16=Label
+ParameterName16=LatestRevisionDate
 ParameterUpdate16=1
-ParameterName17=LatestRevisionDate
+ParameterName17=LatestRevisionNote
 ParameterUpdate17=1
-ParameterName18=LatestRevisionNote
+ParameterName18=Library Reference
 ParameterUpdate18=1
-ParameterName19=Library Reference
+ParameterName19=Manufacturer
 ParameterUpdate19=1
-ParameterName20=Limit
+ParameterName20=Manufacturer Part Number
 ParameterUpdate20=1
-ParameterName21=Manufacturer
+ParameterName21=Mounting Type
 ParameterUpdate21=1
-ParameterName22=Manufacturer Part Number
+ParameterName22=Number of Positions
 ParameterUpdate22=1
-ParameterName23=Mounting Type
+ParameterName23=Number of Positions Loaded
 ParameterUpdate23=1
-ParameterName24=Number of Positions
+ParameterName24=Number of Rows
 ParameterUpdate24=1
-ParameterName25=Number of Positions Loaded
+ParameterName25=Ordering
 ParameterUpdate25=1
-ParameterName26=Number of Rows
+ParameterName26=PackageDescription
 ParameterUpdate26=1
-ParameterName27=Ordering
+ParameterName27=PackageReference
 ParameterUpdate27=1
-ParameterName28=PackageDescription
+ParameterName28=Packaging
 ParameterUpdate28=1
-ParameterName29=PackageReference
+ParameterName29=Pitch
 ParameterUpdate29=1
-ParameterName30=Packaging
+ParameterName30=Pricing 1
 ParameterUpdate30=1
-ParameterName31=Pitch
+ParameterName31=Published
 ParameterUpdate31=1
-ParameterName32=Pricing 1
+ParameterName32=Publisher
 ParameterUpdate32=1
-ParameterName33=Published
+ParameterName33=RoHS
 ParameterUpdate33=1
-ParameterName34=Publisher
+ParameterName34=Row Spacing
 ParameterUpdate34=1
-ParameterName35=RoHS
+ParameterName35=Set Position
 ParameterUpdate35=1
-ParameterName36=Row Spacing
+ParameterName36=Stock 1
 ParameterUpdate36=1
-ParameterName37=Set Position
+ParameterName37=Supplier 1
 ParameterUpdate37=1
-ParameterName38=Stock 1
+ParameterName38=Supplier Part Number 1
 ParameterUpdate38=1
-ParameterName39=Supplier 1
+ParameterName39=Termination
 ParameterUpdate39=1
-ParameterName40=Supplier Part Number 1
+ParameterName40=Value
 ParameterUpdate40=1
-ParameterName41=Termination
-ParameterUpdate41=1
-ParameterName42=URL
-ParameterUpdate42=1
-ParameterName43=Value
-ParameterUpdate43=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
 ModelName0=10K Pot 3352T
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=3M5473-ND-
+ModelName1=3.5Jack Foot
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=5V REG
+ModelName2=3M5473-ND-
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=AXIAL-0.8
+ModelName3=5V REG
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=Blade Fuse
+ModelName4=AXIAL-0.8
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAPPR1.27-1.7x2.8
+ModelName5=Blade Fuse
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CAPPR1.5-4x5
+ModelName6=CAPPR1.27-1.7x2.8
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=CAPPR2-5X11
+ModelName7=CAPPR1.5-4x5
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=CAPPR2-5x6.8
+ModelName8=CAPPR2-5X11
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=CAPPR5-10X30
+ModelName9=CAPPR2-5x6.8
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=CAPPR5-5x5
+ModelName10=CAPPR5-10X30
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=CAPPR7.5-16x35
+ModelName11=CAPPR5-5x5
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=MCP6562
+ModelName12=CAPPR7.5-16x35
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=MIC441/44
+ModelName13=LED-1
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=Mini-Fit Jr. 2
+ModelName14=MCP6562
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=RB7.6-15
+ModelName15=MIC441/44
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=RES10.55-7X2.8
+ModelName16=Mini-Fit Jr. 2
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SCT2450KEC
+ModelName17=RB7.6-15
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=Test Point
+ModelName18=RES10.55-7X2.8
 ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=SCT2450KEC
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=Test Point
+ModelUpdate20=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType19=SI
-ModelName19=Cap Pol
-ModelUpdate19=1
-ModelType20=SI
-ModelName20=Inductor Adj
-ModelUpdate20=1
+ModelType21=SI
+ModelName21=Cap Pol
+ModelUpdate21=1
+ModelType22=SI
+ModelName22=Inductor Adj
+ModelUpdate22=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType21=SIM
-ModelName21=CAP
-ModelUpdate21=1
-ModelType22=SIM
-ModelName22=INDUCTOR
-ModelUpdate22=1
 ModelType23=SIM
-ModelName23=RESISTOR
+ModelName23=CAP
 ModelUpdate23=1
+ModelType24=SIM
+ModelName24=INDUCTOR
+ModelUpdate24=1
+ModelType25=SIM
+ModelName25=LED1
+ModelUpdate25=1
+ModelType26=SIM
+ModelName26=RESISTOR
+ModelUpdate26=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
