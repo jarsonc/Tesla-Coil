@@ -293,66 +293,114 @@ DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.EXTREP
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBL
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBS
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GM1
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPB
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPT
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTL
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTO
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTP
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTS
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.LDP
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.LDP
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.REP
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.RUL
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.TXT
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Tesla Coil\Gerber Output\Tesla Coil PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for Tesla Coil\NC Drill Output\Tesla Coil PCB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument32]
 DocumentPath=Project Outputs for Tesla Coil\Tesla Coil PCB.TXT
 DItemRevisionGUID=
 
@@ -480,12 +528,22 @@ OutputName22=VHDL File
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP ENVY 4520 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -606,12 +664,6 @@ OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType20=Logic Analyser Print
-OutputName20=Logic Analyser Prints
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -638,7 +690,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP ENVY 4520 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ODB
 OutputName1=ODB++ Files
