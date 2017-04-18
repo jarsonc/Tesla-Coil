@@ -15,7 +15,7 @@ D23   ROUNDED            59.055      59.055       0.000 FLASH       0.000
 D24   RECTANGULAR        59.055      59.055       0.000 FLASH     180.000
 D25   RECTANGULAR        53.150      53.150       0.000 FLASH     180.000
 D26   ROUNDED            53.150      53.150       0.000 FLASH       0.000
-D27   ROUNDED            80.000      80.000       0.000 FLASH       0.000
+D27   ROUNDED           114.173     114.173       0.000 FLASH       0.000
 D28   ROUNDED           347.244     347.244       0.000 FLASH       0.000
 D29   ROUNDED           114.173     114.173       0.000 FLASH       0.000
 D30   RECTANGULAR       114.173     114.173       0.000 FLASH     270.000
@@ -42,7 +42,7 @@ D50   ROUNDED            67.055      67.055       0.000 FLASH       0.000
 D51   RECTANGULAR        67.055      67.055       0.000 FLASH     180.000
 D52   RECTANGULAR        61.150      61.150       0.000 FLASH     180.000
 D53   ROUNDED            61.150      61.150       0.000 FLASH       0.000
-D54   ROUNDED            88.000      88.000       0.000 FLASH       0.000
+D54   ROUNDED           122.173     122.173       0.000 FLASH       0.000
 D55   ROUNDED           355.244     355.244       0.000 FLASH       0.000
 D56   ROUNDED           122.173     122.173       0.000 FLASH       0.000
 D57   RECTANGULAR       122.173     122.173       0.000 FLASH     270.000
