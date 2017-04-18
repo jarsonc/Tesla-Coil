@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Tesla Coil PCB.PcbDoc   4/18/2017  10:37:13 AM
+NCDrill File Report For: Tesla Coil PCB.PcbDoc   4/18/2017  11:52:54 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -9,19 +9,19 @@ EIA File   : Tesla Coil PCB.DRL
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      25mil (0.635mm)                                           Round             16        PTH        3.29inch (83.65mm)
-T2      28mil (0.711mm)                                           Round             16        PTH        8.80inch (223.57mm)
-T3      30mil (0.762mm)                                           Round             9         PTH        3.80inch (96.53mm)
+T2      28mil (0.711mm)                                           Round             16        PTH        8.83inch (224.29mm)
+T3      30mil (0.762mm)                                           Round             9         PTH        3.90inch (99.07mm)
 T4      32mil (0.8mm)                                             Round             6         PTH        4.49inch (113.93mm)
 T5      33mil (0.85mm)                                            Round             2         PTH        0.80inch (20.32mm)
-T6      35mil (0.9mm)                                             Round             14        PTH        8.85inch (224.89mm)
+T6      35mil (0.9mm)                                             Round             14        PTH        8.30inch (210.78mm)
 T7      39mil (1mm)                                               Round             18        PTH        10.49inch (266.53mm)
 T8      51mil (1.3mm)                                             Round             12        PTH        2.87inch (73.01mm)
 T9      55mil (1.4mm)                                             Round             3         PTH        0.21inch (5.40mm)
-T10     75mil (1.9mm)                                             Round             8         PTH        5.94inch (150.95mm)
+T10     75mil (1.9mm)                                             Round             14        PTH        11.60inch (294.61mm)
 T11     106mil (2.7mm)                                            Round             4         PTH        0.58inch (14.70mm)
-T12     126mil (3.2mm)                                            Round             3         PTH        5.17inch (131.32mm)
+T12     126mil (3.2mm)                                            Round             6         PTH        10.95inch (278.22mm)
 T13     176mil (4.47mm)                                           Round             4         PTH        14.51inch (368.51mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              115
+Totals                                                                              124
 
 Total Processing Time (hh:mm:ss) : 00:00:00

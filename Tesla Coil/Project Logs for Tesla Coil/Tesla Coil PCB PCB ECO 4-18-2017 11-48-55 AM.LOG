@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=* NewDesignator=Q1
+Change Component Designator: OldDesignator=* NewDesignator=Q2
+Change Component Designator: OldDesignator=* NewDesignator=Q3
+Change Component Designator: OldDesignator=1 NewDesignator=Q4
+Added Component: Designator=J5(Mini-Fit Jr. 2)
+Added Component: Designator=J6(Mini-Fit Jr. 2)
+Added Component: Designator=J7(Mini-Fit Jr. 2)
+Added Pin To Net: NetName=12V Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=12V Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=NetJ7_1 Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-2
+Added Pin To Net: NetName=NetMIC4452YN_6 Pin=MIC4452YN-6
+Change Net Name : Old Net Name=Net*_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=Net*_2 New Net Name=NetJ3_2
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component J5 Fan1
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component J6 Fan2
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component J7 Ext_IN
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component Q1 SCT2450KEC
+Added Member To Class: ClassName=Tesla Coil Schematic Member=Component Q2 SCT2450KEC
